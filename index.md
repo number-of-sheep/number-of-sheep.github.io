@@ -111,6 +111,31 @@ title: Home
 </div>
 {% endif %}
 
+{% if site.data.awards %}
+<section class="resume-section">
+  <h3>Awards & Honors</h3>
+  <div class="resume-list">
+    {% for award in site.data.awards %}
+    <div class="resume-item">
+      <div class="resume-header">
+        <h4 class="resume-title">{{ award.title }}</h4>
+        <span class="resume-date">{{ award.date }}</span>
+      </div>
+      <div class="resume-subtitle">{{ award.issuer }}</div>
+      
+      {% if award.details %}
+      <ul class="resume-details">
+        {% for detail in award.details %}
+        <li>{{ detail }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
 {% if site.data.publications %}
 <h3>Publications</h3>
 <div class="resume-list">
@@ -151,13 +176,4 @@ title: Home
   <span>&nbsp;&middot;&nbsp;* Corresponding author</span>
   <span>&nbsp;&middot;&nbsp;<u>Underline</u> indicates presenter</span>
 </p>
-{% endif %}
-
-{% if site.data.awards %}
-<h3>Awards</h3>
-<ul>
-  {% for award in site.data.awards %}
-  <li><strong>{{ award.title }}</strong>, {{ award.institution }} ({{ award.date }})</li>
-  {% endfor %}
-</ul>
 {% endif %}
