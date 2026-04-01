@@ -1,0 +1,15 @@
+# Education Data
+- degree: "Integrated M.S./Ph.D. Program"
+  department: "Department of Electrical Engineering"
+  institution: "Ulsan National Institute of Science and Technology (UNIST)"
+  period: "Mar 2025 - Present"
+  details:
+    - "GPA: 3.84 / 4.3"
+
+- degree: "B.S. in Electrical Engineering"
+  department: "Department of Electrical Engineering"
+  institution: "Ulsan National Institute of Science and Technology (UNIST)"
+  period: "Mar 2021 - Feb 2025"
+  details:
+    - "GPA: 3.61 / 4.3"
+    - "Relevant Coursework: Computer Architecture, Digital Logic, VLSI Design, Tensor Processor Design for Image Recognition"

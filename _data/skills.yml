@@ -1,0 +1,20 @@
+# Skills and Tools Data
+- category: "Hardware & RTL"
+  items:
+    - "Verilog"
+    - "SystemVerilog"
+
+- category: "EDA & Simulation"
+  items:
+    - "Synopsys Design Compiler"
+    - "Synopsys VCS"
+    - "Synopsys IC Compiler II"
+    - "Cadence Spectre"
+    - "Cadence Virtuoso"
+    - "Siemens Calibre"
+
+- category: "Software & AI"
+  items:
+    - "Python"
+    - "C/C++"
+    - "Jekyll"

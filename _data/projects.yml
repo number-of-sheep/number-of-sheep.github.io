@@ -1,0 +1,11 @@
+# Projects Data
+# _data/projects.yml
+- title: "IDEC MPW: RISC-V Based LLaMA Inference Accelerator for Chiplet Integration"
+  role: "Digital Design & Backend Lead"
+  period: "Feb 2026 - Mar 2026"
+  details:
+    - "Designed a test chip for chiplet packaging targeting LLaMA 3B inference on the Samsung 28nm FD-SOI process."
+    - "Developed the RTL for the GEMV (General Matrix-Vector Multiplication) core, optimized for hardware-efficient matrix operations."
+    - "Collaborated with Prof. Dongyun Kam's team on system integration: incorporated ShiftAddLLM-based weight quantization and a Layer Normalization module into the RISC-V system bus (MMIO/DMA)."
+    - "Led the entire digital backend flow under the technical mentorship of Prof. Dongyun Kam, managing logic synthesis and Place & Route (P&R) within a tight two-month window."
+    - "Conducted physical verification using Siemens Calibre, successfully resolving sign-off DRC/LVS violations up to the final metal density (dummy fill) stage."

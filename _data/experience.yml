@@ -1,0 +1,42 @@
+# Research and Work Experience Data
+
+- role: "Visiting Student Researcher"
+  organization: "Korea Advanced Institute of Science and Technology (KAIST)"
+  pi: "Advisor: Prof. Jimin Kwon"
+  period: "Apr 2026 - Present"
+  details:
+    - "Relocated to KAIST following the advisor's transition to continue integrated M.S./Ph.D. research."
+    - "Establishing the new laboratory environment while advancing core research in neural compact modeling and chiplet architectures."
+
+- role: "Visiting Researcher"
+  organization: "Alsemy Inc."
+  period: "Aug 2025"
+  details:
+    - "Validated neural compact models and ensured seamless compatibility with industry-standard EDA tools."
+    - "Performed extensive SPICE simulations using Cadence Spectre and Synopsys HSPICE to verify model accuracy."
+
+- role: "Graduate Research Assistant"
+  organization: "UNIST Nanoelectronics and Advanced Packaging Lab (UNL)"
+  pi: "Advisor: Prof. Jimin Kwon"
+  period: "Jan 2025 - Mar 2026"
+  details:
+    - "Researched device-level neural compact modeling and semi-automated data collection."
+    - "Executed digital design implementation flows, including logic synthesis and physical design."
+    - "Explored chiplet-based system architectures within a DTCO/STCO framework."
+
+- role: "Undergraduate Research Assistant"
+  organization: "UNIST Intelligent Systems Laboratory (ISL)"
+  pi: "Advisor: Prof. Kyuho Jason Lee (Now at Yonsei University)"
+  period: "Jan 2024 - Dec 2024"
+  details:
+    - "Developed deep learning and hardware acceleration solutions."
+    - "Implemented LiDAR point cloud segmentation and a hardware-friendly softmax function."
+    - "Designed an FPGA-based BNN (Binarized Neural Network) accelerator."
+
+- role: "Undergraduate Research Assistant"
+  organization: "UNIST Nanoelectronics and Advanced Packaging Lab (UNL)"
+  pi: "Advisor: Prof. Jimin Kwon"
+  period: "Jan 2023 - Aug 2023"
+  details:
+    - "Investigated in-memory computing and computer architecture."
+    - "Performed memristor device modeling and LTspice simulation of compact models."

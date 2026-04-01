@@ -1,5 +1,27 @@
-title: number-of-sheep
+# Site Metadata
+title: Heesoo Yang
+author: Heesoo Yang
+email: kristron@unist.ac.kr
+linkedin: "https://www.linkedin.com/in/heesoo-yang-en/"
+github: "https://github.com/number-of-sheep"
+scholar: ""
+
+position: integrated M.S./Ph.D. program student
+department: department of electrical engineering
+institution: Ulsan National Institute of Science and Technology (UNIST)
+
+# Profile section
+headline: "Architecting the Future of Emerging Device Systems"
+bio: "Integrated M.S./Ph.D. researcher. My passion lies in automating system-level evaluations of next-generation devices, leveraging a synergistic approach of neural compact modeling, DTCO frameworks, and physical design."
+profile_image: "/assets/images/profile.jpg"
+
+# For conditional rendering in publications section
+my_name: "Heesoo Yang"
+
+# Site settings
 description: Heesoo Yang's personal blog
 url: "https://number-of-sheep.github.io"
 baseurl: ""
 
+highlighter: rouge
+markdown: kramdown

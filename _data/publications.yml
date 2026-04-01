@@ -1,0 +1,20 @@
+# Publications Data
+# Add &dagger; to co-first authors
+# <u>Underline</u> for the presenter's name
+# Asterisk * for corresponding authors
+
+- title: "Vertical-Die (V-die) 3.5D Integration for Cool Ultrahigh-Bandwidth Memory Systems"
+  authors: "<u>Heesoo Yang</u>&dagger;, Hyeongjun Kim&dagger;, Yurim Choi, Seungmin Lee, Dongyun Kam, Haksoon Jung, Yongwoo Lee, Seongju Kim, and Jimin Kwon*"
+  venue: "IEEE/JSAP Symposium on VLSI Technology and Circuits"
+  type: "Conference"
+  date: "2026"
+  status: "Accepted"
+  url: ""
+
+- title: "Active BSCDN benchmark framework with backside-compatible CNFET logic technology"
+  authors: "Yehyun Shin&dagger;, Ikkyum Kim&dagger;, <u>Minho Park</u>&dagger;, Junghyun Yoon, Seunghun Baek, Seongmin Eum, Heesoo Yang, Yurim Choi, Jaeyong Jeong, Sanghyeon Kim, Haksoon Jung, Seongju Kim*, Heechun Park*, and Jimin Kwon*"
+  venue: "IEEE International Electron Devices Meeting (IEDM)"
+  type: "Conference"
+  date: "2025"
+  status: "Published"
+  url: "https://ieeexplore.ieee.org/document/11353496"
