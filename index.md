@@ -33,22 +33,6 @@ title: Home
   </div>
 </div>
 
-{% if site.data.skills %}
-<h3>Skills & Tools</h3>
-<div class="skills-container">
-  {% for skill_group in site.data.skills %}
-  <div class="skill-category">
-    <div class="skill-title">{{ skill_group.category }}</div>
-    <div class="skill-tags">
-      {% for item in skill_group.items %}
-      <span>{{ item }}</span>
-      {% endfor %}
-    </div>
-  </div>
-  {% endfor %}
-</div>
-{% endif %}
-
 {% if site.data.education %}
 <h3>Education</h3>
 <div class="resume-list">
@@ -84,26 +68,6 @@ title: Home
     {% if exp.details %}
     <ul class="resume-details">
       {% for detail in exp.details %}<li>{{ detail }}</li>{% endfor %}
-    </ul>
-    {% endif %}
-  </div>
-  {% endfor %}
-</div>
-{% endif %}
-
-{% if site.data.projects %}
-<h3>Projects</h3>
-<div class="resume-list">
-  {% for proj in site.data.projects %}
-  <div class="resume-item">
-    <div class="resume-header">
-      <h4 class="resume-title">{{ proj.title }}</h4>
-      <span class="resume-date">{{ proj.period }}</span>
-    </div>
-    <div class="resume-subtitle">{{ proj.role }}</div>
-    {% if proj.details %}
-    <ul class="resume-details">
-      {% for detail in proj.details %}<li>{{ detail }}</li>{% endfor %}
     </ul>
     {% endif %}
   </div>
@@ -176,4 +140,40 @@ title: Home
   <span>&nbsp;&middot;&nbsp;* Corresponding author</span>
   <span>&nbsp;&middot;&nbsp;<u>Underline</u> indicates presenter</span>
 </p>
+{% endif %}
+
+{% if site.data.projects %}
+<h3>Projects</h3>
+<div class="resume-list">
+  {% for proj in site.data.projects %}
+  <div class="resume-item">
+    <div class="resume-header">
+      <h4 class="resume-title">{{ proj.title }}</h4>
+      <span class="resume-date">{{ proj.period }}</span>
+    </div>
+    <div class="resume-subtitle">{{ proj.role }}</div>
+    {% if proj.details %}
+    <ul class="resume-details">
+      {% for detail in proj.details %}<li>{{ detail }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if site.data.skills %}
+<h3>Skills & Tools</h3>
+<div class="skills-container">
+  {% for skill_group in site.data.skills %}
+  <div class="skill-category">
+    <div class="skill-title">{{ skill_group.category }}</div>
+    <div class="skill-tags">
+      {% for item in skill_group.items %}
+      <span>{{ item }}</span>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
 {% endif %}

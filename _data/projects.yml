@@ -2,7 +2,7 @@
 # _data/projects.yml
 - title: "IDEC MPW: RISC-V Based LLaMA Inference Accelerator for Chiplet Integration"
   role: "Digital Design & Backend Lead"
-  period: "Feb 2026 - Mar 2026"
+  period: "Feb 2026 – Mar 2026"
   details:
     - "Designed a test chip for chiplet packaging targeting LLaMA 3B inference on the Samsung 28nm FD-SOI process."
     - "Developed the RTL for the GEMV (General Matrix-Vector Multiplication) core, optimized for hardware-efficient matrix operations."

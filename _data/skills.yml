@@ -18,3 +18,8 @@
     - "Python"
     - "C/C++"
     - "Jekyll"
+
+- category: "Languages"
+  items:
+    - "English"
+    - "Korean"
