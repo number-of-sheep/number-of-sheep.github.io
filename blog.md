@@ -7,7 +7,7 @@ permalink: /blog/
 <div class="blog-page-container">
   <header class="page-header">
     <h1 class="page-title">Blog</h1>
-    <p class="page-subtitle">To be updated. On testing the blog layout and formatting.</p>
+    <p class="page-subtitle">Posts about various topics related to my research, tools, and experiences. Most posts will be written in Korean, but some may be in English depending on the content.</p>
   </header>
 
   <div class="blog-post-list">
