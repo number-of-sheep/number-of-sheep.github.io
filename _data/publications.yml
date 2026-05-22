@@ -3,6 +3,14 @@
 # <u>Underline</u> for the presenter's name
 # Asterisk * for corresponding authors
 
+- title: "Oxygen-Tunnel Indium Tin Oxide Vertical Channel Transistors with Enhanced Current Density and Reliability for Monolithic 3D Compute-In-Memory Systems"
+  authors: "Hyeonho Gu, Haksoon Jung*, Yongwoo Lee*, Hoichang Jeong, Yanfeng Zhao, Heesoo Yang, Minho Park, Hyeonjin Lee, Seunghun Baek, Minju Song, Junghwan Kim, Youngmin Jo, Hyunjin Park, Munhyeon Kim, Jae-Joon Kim, Kyuho Jason Lee, Byungjo Kim, and Jimin Kwon*"
+  venue: "Advanced Functional Materials"
+  type: "Journal"
+  date: "2026"
+  status: "Open Access"
+  url: "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202531989"
+
 - title: "Vertical-Die (V-die) 3.5D Integration for Cool Ultrahigh-Bandwidth Memory Systems"
   authors: "<u>Heesoo Yang</u>&dagger;, Hyeongjun Kim&dagger;, Yurim Choi, Seungmin Lee, Dongyun Kam, Haksoon Jung, Yongwoo Lee, Seongju Kim, and Jimin Kwon*"
   venue: "IEEE/JSAP Symposium on VLSI Technology and Circuits"
