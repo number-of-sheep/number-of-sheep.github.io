@@ -16,8 +16,8 @@
   venue: "IEEE/JSAP Symposium on VLSI Technology and Circuits"
   type: "Conference"
   date: "2026"
-  status: "Accepted"
-  url: ""
+  status: "Published"
+  url: "https://ieeexplore.ieee.org/abstract/document/11577552"
 
 - title: "Active BSCDN benchmark framework with backside-compatible CNFET logic technology"
   authors: "Yehyun Shin&dagger;, Ikkyum Kim&dagger;, <u>Minho Park</u>&dagger;, Junghyun Yoon, Seunghun Baek, Seongmin Eum, Heesoo Yang, Yurim Choi, Jaeyong Jeong, Sanghyeon Kim, Haksoon Jung, Seongju Kim*, Heechun Park*, and Jimin Kwon*"
