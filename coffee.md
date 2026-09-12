@@ -7,7 +7,6 @@ permalink: /coffee/
 <div class="coffee-page-container">
   <header class="page-header">
     <h1 class="page-title">Coffee Log</h1>
-    <p class="page-subtitle">이름을 선택하고 잔 수와 한 잔당 원두 그램 수를 입력해주세요.</p>
   </header>
 
   <form id="coffee-form" class="coffee-form" autocomplete="off">
@@ -36,7 +35,7 @@ permalink: /coffee/
       <div class="coffee-total">총 <span id="coffee-total-g">0</span> g</div>
     </div>
 
-    <button type="submit" id="coffee-submit" class="coffee-submit" disabled>제출</button>
+    <button type="submit" id="coffee-submit" class="coffee-submit" disabled>OK</button>
     <p id="coffee-status" class="coffee-status" role="status" aria-live="polite"></p>
   </form>
 
