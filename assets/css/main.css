@@ -725,3 +725,220 @@ blockquote p {
     gap: 20px;
   }
 }
+
+/* ==========================================================================
+   Coffee Log (/coffee)
+   ========================================================================== */
+.coffee-page-container {
+  padding: 40px 0 80px 0;
+}
+
+.coffee-form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 32px;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.coffee-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.coffee-field label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--heading-color);
+  letter-spacing: -0.01em;
+}
+
+.coffee-form select,
+.coffee-form input[type="text"],
+.coffee-form input[type="number"] {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  padding: 10px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+.coffee-form input[type="number"] {
+  text-align: center;
+}
+
+.coffee-form select:focus,
+.coffee-form input:focus {
+  border-color: var(--accent-color);
+}
+
+.coffee-counter {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.coffee-counter-btn {
+  width: 40px;
+  height: 40px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  background: var(--bg-color);
+  color: var(--heading-color);
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.coffee-counter-btn:hover {
+  background: #f0f0f0;
+  border-color: var(--accent-color);
+}
+
+.coffee-counter-value {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  color: var(--text-color);
+  min-width: 2ch;
+  text-align: center;
+}
+
+.coffee-total {
+  font-family: var(--font-family);
+  font-size: 1.05rem;
+  color: var(--muted-color);
+  text-align: right;
+}
+
+.coffee-total span {
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+.coffee-submit {
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: var(--font-family);
+  color: #ffffff;
+  background: var(--accent-color);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.coffee-submit:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.coffee-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.coffee-status {
+  min-height: 1.2em;
+  margin: 0;
+  font-size: 0.9rem;
+  text-align: center;
+  color: var(--muted-color);
+}
+
+.coffee-status[data-kind="error"] { color: var(--accent-color); }
+.coffee-status[data-kind="ok"]    { color: #2f7a3a; }
+
+.coffee-summary {
+  max-width: 480px;
+  margin: 40px auto 0 auto;
+}
+
+.coffee-summary h3 {
+  font-size: 1.1rem;
+  margin-top: 32px;
+}
+
+.coffee-summary-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.coffee-summary-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--border-color);
+}
+
+.coffee-summary-label {
+  color: var(--muted-color);
+  font-size: 0.95rem;
+}
+
+.coffee-summary-value {
+  font-size: 1.05rem;
+  color: var(--text-color);
+}
+
+.coffee-summary-value strong {
+  font-family: var(--font-family);
+  font-size: 1.15rem;
+  color: var(--accent-color);
+  margin-right: 4px;
+}
+
+.coffee-recent-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.coffee-recent-item {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.coffee-recent-when {
+  font-family: var(--font-family);
+  color: var(--muted-color);
+  margin-right: 8px;
+}
+
+.coffee-recent-who {
+  font-weight: 600;
+  color: var(--heading-color);
+  margin-right: 8px;
+}
+
+.coffee-recent-what {
+  color: var(--text-color);
+}
+
+.coffee-recent-memo {
+  color: var(--muted-color);
+  font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+  .coffee-form,
+  .coffee-summary {
+    padding: 20px;
+  }
+}
