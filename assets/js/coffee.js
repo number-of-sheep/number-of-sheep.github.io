@@ -2,7 +2,7 @@
   'use strict';
 
   const API = 'https://script.google.com/macros/s/AKfycbxGH0cStxJZVNaLKXt4FRM6JcDgmJRRi_LZA1dV1vvLwaF5dr5TZeoTGJF8JZWUZwKd/exec';
-  const PRICE_PER_20G = 1400;
+  const PRICE_PER_20G = 2000;
 
   const form       = document.getElementById('coffee-form');
   const nameSel    = document.getElementById('coffee-name');
@@ -35,12 +35,17 @@
   }
 
   function formatDate(d) {
+    if (typeof d === 'string' && /^\d{2}\.\d{2}\.\d{2} \d{2}:\d{2}$/.test(d)) {
+      return d;
+    }
     const dt = new Date(d);
+    if (isNaN(dt.getTime())) return String(d);
+    const yy = String(dt.getFullYear()).slice(-2);
     const mm = String(dt.getMonth() + 1).padStart(2, '0');
     const dd = String(dt.getDate()).padStart(2, '0');
     const hh = String(dt.getHours()).padStart(2, '0');
     const mi = String(dt.getMinutes()).padStart(2, '0');
-    return `${mm}/${dd} ${hh}:${mi}`;
+    return `${yy}.${mm}.${dd} ${hh}:${mi}`;
   }
 
   function setStatus(msg, kind) {
@@ -102,7 +107,7 @@
 
     recentEl.innerHTML = '';
     (payload.recent5 || []).forEach(row => {
-      const [ts, name, c, gpc, tg, memo] = row;
+      const [ts, name, c, gpc, tg, price, memo] = row;
       const li = document.createElement('li');
       li.className = 'coffee-recent-item';
       const memoPart = memo ? ` — ${escapeHtml(memo)}` : '';
